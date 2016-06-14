@@ -9,6 +9,7 @@ This repo contains the plans used in the Habitat tutorials. To build them:
 
 This repo will be updated with changes to existing tutorials or when new tutorials are created.
 
+## License
 
 Copyright (c) 2016 Chef Software Inc. and/or applicable contributors
 
