@@ -7,7 +7,7 @@ pkg_license=('MIT')
 pkg_source=https://s3-us-west-2.amazonaws.com/${pkg_name}/${pkg_name}-${pkg_version}.tar.gz
 pkg_shasum=2ad73b78ef5e88e9e916873c0f762bbdf286e4de93e67cf211f9761a2876c7ef
 pkg_filename=${pkg_name}-${pkg_version}.tar.gz
-pkg_deps=(chef/node)
+pkg_deps=(core/node)
 pkg_expose=(8080)
 
 
