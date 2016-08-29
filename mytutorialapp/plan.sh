@@ -1,11 +1,11 @@
 # Template plan.sh
 pkg_origin=myorigin
 pkg_name=mytutorialapp
-pkg_version=0.1.0
-pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
-pkg_license=('MIT')
+pkg_version=0.2.0
+pkg_maintainer="Your Name <your email address>"
+pkg_license=()
 pkg_source=https://s3-us-west-2.amazonaws.com/${pkg_name}/${pkg_name}-${pkg_version}.tar.gz
-pkg_shasum=b54f8ada292b0249245385996221751f571e170162e0d464a26b958478cc9bfa
+pkg_shasum=e4e988d9216775a4efa4f4304595d7ff31bdc0276d5b7198ad6166e13630aaa9
 pkg_filename=${pkg_name}-${pkg_version}.tar.gz
 pkg_deps=(core/node)
 pkg_expose=(8080)
@@ -13,7 +13,7 @@ pkg_expose=(8080)
 
 do_build() {
   # The mytutorialapp source code is unpacked into a directory,
-  # mytutorialapp-0.1.0, at the root of $HAB_CACHE_SRC_PATH. If you were downloading
+  # mytutorialapp-0.2.0, at the root of $HAB_CACHE_SRC_PATH. If you were downloading
   # an archive that didn't match your package name and version, you would have to
   # copy the files into $HAB_CACHE_SRC_PATH.
 
