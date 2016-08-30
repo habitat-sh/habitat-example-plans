@@ -1,4 +1,8 @@
-# Template plan.sh
+# To use this alternative version of the mytutorialapp plan, simply rename the 
+# existing plan.sh in this directory and rename this file to plan.sh. You can then run 
+# the build command against this version of the plan, which will download the source tarball
+# instead of referencing it locally.
+
 pkg_origin=myorigin
 pkg_name=mytutorialapp
 pkg_version=0.2.0
