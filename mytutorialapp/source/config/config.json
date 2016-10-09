@@ -1,4 +1,7 @@
 {
   "message": "Hello, World!",
+  "url": "http://placekitten.com",
+  "width": "450",
+  "height": "350",
   "port": "8080"
 }

@@ -5,3 +5,12 @@ message = "Hello, World!"
 
 # The port number that is listening for requests.
 port = 8080
+
+# URL of placeholder image API
+url = "http://placekitten.com"
+
+# Width of placeholder image
+width = "450"
+
+# Height of placeholder image
+height = "350"
