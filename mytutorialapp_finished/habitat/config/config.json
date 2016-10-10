@@ -1,7 +1,4 @@
 {
 	"message": "{{cfg.message}}",
-	"port": "{{cfg.port}}",
-	"url": "{{cfg.url}}",
-	"width": "{{cfg.width}}",
-	"height": "{{cfg.height}}"
+	"port": "{{cfg.port}}"
 }
