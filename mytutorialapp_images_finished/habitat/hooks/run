@@ -6,4 +6,4 @@ cd {{pkg.svc_var_path}}
 # `npm start`, rather than the run hook itself. `2>&1` makes it so both
 # standard output and standard error go to the standard output stream,
 # so all the logs from the application go to the same place.
-exec npm start 2>&1 
+exec npm restart 2>&1 
