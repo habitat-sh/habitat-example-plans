@@ -1,5 +1,9 @@
-#!/bin/sh
-#
-ln -sf {{pkg.path}}/package.json {{pkg.svc_var_path}}
-ln -sf {{pkg.path}}/server.js {{pkg.svc_var_path}}
-ln -sf {{pkg.path}}/node_modules {{pkg.svc_var_path}}
+$nodeBinary = (Resolve-Path (Get-Command node).Path).Path
+netsh advfirewall firewall set rule name="Allow Node" new dir=in program="$nodeBinary" action=allow
+if($LASTEXITCODE -ne 0) {
+  netsh advfirewall firewall add rule name="Allow Node" dir=in program="$nodeBinary" action=allow
+}
+
+cp {{pkg.path}}/package.json {{pkg.svc_var_path}} -Force
+cp {{pkg.path}}/server.js {{pkg.svc_var_path}} -Force
+cp {{pkg.path}}/node_modules {{pkg.svc_var_path}} -Force -Recurse
