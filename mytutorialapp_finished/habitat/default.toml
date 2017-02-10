@@ -4,4 +4,4 @@
 message = "Hello, World!"
 
 # The port number that is listening for requests.
-port = 8080
+listening_port = 8080

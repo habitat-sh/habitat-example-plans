@@ -12,7 +12,8 @@ pkg_source=https://s3-us-west-2.amazonaws.com/${pkg_name}/${pkg_name}-${pkg_vers
 pkg_shasum=e4e988d9216775a4efa4f4304595d7ff31bdc0276d5b7198ad6166e13630aaa9
 pkg_filename=${pkg_name}-${pkg_version}.tar.gz
 pkg_deps=(core/node)
-pkg_expose=(8080)
+pkg_exports=( [port]=listening_port )
+pkg_exposes=(port)
 
 
 do_build() {

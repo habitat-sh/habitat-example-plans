@@ -6,7 +6,8 @@ pkg_license=()
 pkg_upstream_url=https://github.com/habitat-sh/habitat-example-plans
 pkg_source=nosuchfile.tar.gz
 pkg_deps=(core/node)
-pkg_expose=(8080)
+pkg_exports=( [port]=listening_port )
+pkg_exposes=(port)
 
 do_download() {
   return 0
