@@ -1,0 +1,2 @@
+class PageUpdate < ApplicationRecord
+end
