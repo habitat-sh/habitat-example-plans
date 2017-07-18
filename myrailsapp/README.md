@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This sample Rails application is part of the "Build a Sample App" tutorial for www.habitat.sh. It is meant to be packaged by Habitat and run with a PostgreSQL database also packaged by Habitat. See http://www.habitat.sh/tutorials/ for more details.

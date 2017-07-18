@@ -1,5 +1,5 @@
 secret_key_base = ""
 
 [db]
-user = "admin"
+user = ""
 password = ""
