@@ -5,7 +5,7 @@ services:
      volumes:       
        - "./updated_config.toml:/updated_config.toml"
    railsapp:
-      image: dwrede/myrailsapp
+      image: originname/myrailsapp
       ports:
         - 8000:8000
       links: 
