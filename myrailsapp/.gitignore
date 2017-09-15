@@ -17,3 +17,7 @@
 /yarn-error.log
 
 .byebug_history
+results/
+*.sig.key
+*.box.key
+*.sym.key
