@@ -1,0 +1,9 @@
+worker_processes = "auto"
+
+[events]
+worker_connections = 512
+
+[http.server]
+listen_port = 80
+root = "/hab/svc/mywebapp/static"
+hostname = "localhost"

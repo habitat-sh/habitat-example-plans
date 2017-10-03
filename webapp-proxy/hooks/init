@@ -1,0 +1,4 @@
+#!/bin/sh
+
+mkdir -p {{ pkg.svc_static_path }}/nginx
+chown hab:hab "{{ pkg.svc_static_path }}"
