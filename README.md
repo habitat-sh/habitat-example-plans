@@ -1,5 +1,5 @@
 # habitat-example-plans
-This repo contains the plans and sample code used in the Habitat tutorials as well as other plans that may be useful for learning about Habitat. To build them:
+This repo contains the plans and sample code that may be useful for learning about Habitat. To build them:
 
 * Clone this repo.
 * Download the latest `hab` command-line interface tool for either [Mac OS X](https://api.bintray.com/content/habitat/stable/darwin/x86_64/hab-$latest-x86_64-darwin.zip?bt_package=hab-x86_64-darwin) or [Linux](https://api.bintray.com/content/habitat/stable/linux/x86_64/hab-$latest-x86_64-linux.tar.gz?bt_package=hab-x86_64-linux).
