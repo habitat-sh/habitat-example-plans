@@ -1,3 +1,3 @@
 # README
 
-This sample Rails application is part of the "Build a Sample App" tutorial for www.habitat.sh. It is meant to be packaged by Habitat and run with a PostgreSQL database also packaged by Habitat. See http://www.habitat.sh/tutorials/ for more details.
+This sample Rails application for the "Build a Sample App" tutorial is now located at https://github.com/habitat-sh/sample-rails-app. Please follow the instructions at https://www.habitat.sh/tutorials/sample-app/ for more information on this sample application and how to build it with Habitat.
