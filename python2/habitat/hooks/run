@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# redirect stderr
+exec 2>&1
+
+# activate the virtual environment
+source {{pkg.svc_data_path}}/{{pkg.name}}/tsenv/bin/activate
+
+# run the flask app
+exec python {{pkg.svc_data_path}}/{{pkg.name}}/index.py
